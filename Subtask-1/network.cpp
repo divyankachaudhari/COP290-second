@@ -1,5 +1,5 @@
 #include "network.h"
-#include "constans.h"
+#include "constants.h"
 
 struct sockaddr_in server_sock_addr(char *ip) {
     struct sockaddr_in serv_addr;

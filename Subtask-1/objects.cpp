@@ -1,6 +1,6 @@
 #include "objects.h"
-#include "physic.h"
-#include "constans.h"
+#include "physics.h"
+#include "constants.h"
 
 
 void resolve_player_key_down(int key, struct Player* player) {
