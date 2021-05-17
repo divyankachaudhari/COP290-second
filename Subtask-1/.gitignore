@@ -1,0 +1,4 @@
+# ignores all extensionless files
+*
+!*/
+!*.*
