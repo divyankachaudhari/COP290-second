@@ -191,9 +191,9 @@ int main(int argc, char** argv){
         cout << "New map created.\n";
     }
 
-    ifstream in_maze("map.txt");
+    ifstream in_maze("map/map.txt");
     if(!in_maze.is_open()) {
-        cout << "Error : Could not open map.txt \n";
+        cout << "Error : Could not open map/map.txt \n";
         exit(0);
     }
     string line;

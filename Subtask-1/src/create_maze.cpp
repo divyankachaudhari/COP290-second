@@ -131,8 +131,8 @@ void generate() {
 }
 
 void reflect() {
-	ifstream in_file("map.txt");
-	ofstream out_file("map_reflected.txt");
+	ifstream in_file("map/map.txt");
+	ofstream out_file("map/map_reflected.txt");
 	string line;
 	int num = 0;
 	while(getline(in_file, line)) {
@@ -168,7 +168,7 @@ void reflect() {
 }
 
 void savetxt() {
-	ofstream out_file("map.txt");
+	ofstream out_file("map/map.txt");
 	int x, y, n;
 
 	for(y = 0; y < ysize; y++) {
