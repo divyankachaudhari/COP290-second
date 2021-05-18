@@ -310,7 +310,7 @@ int main(int argc, char** argv){
         blinker++;
         if(blinker == 30) blinker = 0;
 
-        disp_text(renderer, "GOD: ", font, 600, 10);
+        disp_text(renderer, "God: ", font, 600, 10);
         char god_c[10] = {};
         sprintf(god_c, "%d", god);
         disp_text(renderer, god_c, font, 680, 10);

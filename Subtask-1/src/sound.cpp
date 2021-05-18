@@ -12,7 +12,7 @@ void init_sound() {
         cout << "SDL_mixer could not initialize! SDL_mixer Error: " << Mix_GetError() << endl;
     }
 
-    music = Mix_LoadMUS( "resources/sounds/StarWars60.wav" );
+    music = Mix_LoadMUS( "resources/sounds/marvel.wav" );
     if( music == NULL )
 	{
 		cout << "Failed to load beat music! SDL_mixer Error: "<<  Mix_GetError() << endl;
